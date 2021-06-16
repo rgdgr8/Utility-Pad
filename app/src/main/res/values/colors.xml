@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/primaryDark_org</color>
+    <color name="colorPrimary_org">#6200EE</color>
+    <color name="colorPrimaryDark">@android:color/transparent</color>
+    <color name="primaryDark_org">#3700B3</color>
+    <color name="myBlue">#D6EAF8</color>
+    <color name="colorAccent">@color/org_colorAccent</color>
+    <color name="org_colorAccent">#03DAC5</color>
+    <color name="myTheme">@color/pink_for_grey</color>
+    <color name="green">#52BE80</color>
+    <color name="grey">#7a7f80</color>
+    <color name="blue">#98CCD3</color>
+    <color name="pink">#FFD3D9</color>
+    <color name="navy">#32527b</color>
+    <color name="light_grey_i">#ededed</color>
+    <color name="light_grey_ii">#e0e0e0</color>
+    <color name="yellowish_white">#e8e4c9</color>
+    <color name="light_green">#ABEBC6</color>
+    <color name="purple">#D2B4DE</color>
+    <color name="neon_green">#52de97</color>
+    <color name="tool_option_yellow">#f6d743</color>
+    <color name="tool_option_blue_2">#9de3d0</color>
+    <color name="grey_for_pink">#dddddd</color>
+    <color name="pink_for_grey">#fab7b7</color>
+    <color name="red_for_pink">#562349</color>
+    <color name="lighter_red_for_pink">#862a5c</color>
+    <color name="actionMode_option_1">#827397</color>
+    <color name="dialog">@color/cardview_dark_background</color>
+</resources>

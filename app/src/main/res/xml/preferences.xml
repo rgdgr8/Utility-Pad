@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="background"
+        android:summary="Allow app to run in background, to access your device clipboard"
+        android:title="Run in Background"/>
+
+    <ListPreference
+        android:defaultValue="@string/default_mode"
+        android:key="mode"
+        android:summary="Change Theme of the app"
+        android:title="Themes"
+        android:entryValues="@array/modeKeys"
+        android:entries="@array/mode"/>
+
+    <ListPreference
+        android:defaultValue="@string/defaultRing"
+        android:key="rings"
+        android:summary="Change the Reminder Sound"
+        android:title="Reminder Sound"
+        android:entryValues="@array/ringKeys"
+        android:entries="@array/ring"/>
+
+    <ListPreference
+        android:key="click"
+        android:summary="Change the behaviour of clicking on items in MAIN and FAVOURITES"
+        android:title="On Click"
+        android:entries="@array/clicked"
+        android:entryValues="@array/clickedKeys"
+        android:defaultValue="@string/default_click"/>
+
+    <ListPreference
+        android:key="font"
+        android:summary="Change Fonts of texts and Dialog Boxes in the app"
+        android:title="Fonts"
+        android:entries="@array/myFonts"
+        android:entryValues="@array/myFontKeys"
+        android:defaultValue="@string/default_font_pref"/>
+
+    <ListPreference
+        android:defaultValue="@string/defaultSize"
+        android:key="size"
+        android:summary="Change text item size in the app"
+        android:title="Text Size"
+        android:entryValues="@array/sizeKeys"
+        android:entries="@array/size"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="swoosh"
+        android:summary="Turn Swoosh sound effect ON or OFF "
+        android:title="Swoosh Sound" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pop"
+        android:summary="Turn Pop sound effect ON or OFF"
+        android:title="Pop Sound" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="add"
+        android:summary="@string/addMenuOption"
+        android:title="FAB" />
+
+</PreferenceScreen>

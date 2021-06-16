@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/copyMulRem"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        android:title="Copy"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/shareMulRem"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="Share reminder text"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        app:showAsAction="always"
+        android:title="More">
+        <menu>
+            <item
+                android:id="@+id/remRemMul"
+                android:icon="@drawable/ic_delete_white_24dp"
+                android:title="Remove"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/doneRem"
+                android:icon="@drawable/ic_done_all_white_24dp"
+                android:title="Select All"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/undoneRem"
+                android:icon="@drawable/ic_undo_white_24dp"
+                android:title="Deselect All"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/shareMulFav"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="always"
+        android:title="Share items" />
+    <item
+        android:id="@+id/copyMulFav"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        app:showAsAction="always"
+        android:title="Copy" />
+    <item
+        android:title="action"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/transFavMul"
+                android:icon="@drawable/ic_translate_black_24dp"
+                app:showAsAction="always"
+                android:title="Translate" />
+            <item
+                android:title="Remove"
+                android:id="@+id/remFav"
+                android:icon="@drawable/ic_delete_white_24dp"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/doneFav"
+                android:icon="@drawable/ic_done_all_white_24dp"
+                android:title="Select All"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/undoneFav"
+                android:icon="@drawable/ic_undo_white_24dp"
+                android:title="Deselect All"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+</menu>

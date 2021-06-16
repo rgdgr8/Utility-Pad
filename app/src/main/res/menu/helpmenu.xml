@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searcher"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/order"
+        android:title="Order by"
+        android:icon="@drawable/ic_sort_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/overflow"
+        android:title="Overflow"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert_black_24dp">
+        <menu>
+            <item
+                android:id="@+id/addIt"
+                android:icon="@drawable/ic_add_24dp"
+                android:title="Add new Item" />
+            <item
+                android:id="@+id/addRem"
+                android:icon="@drawable/ic_alarm_add_black_24dp"
+                android:title="Add new Reminder" />
+            <item
+                android:id="@+id/addMe"
+                android:icon="@drawable/ic_translate_black_actually_24dp"
+                android:title="Translate new Item" />
+            <item
+                android:id="@+id/refresh"
+                android:icon="@drawable/ic_refresh_black_24dp"
+                android:title="Refresh" />
+        </menu>
+    </item>
+</menu>

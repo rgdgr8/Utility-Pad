@@ -1,0 +1,156 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="android:actionModeBackground">@color/actionMode_option_1</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="ActionModeStyle" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/actionMode_option_1</item>
+        <item name="titleTextStyle">@style/ActionModeTitleTextStyle</item>
+    </style>
+
+    <style name="ActionModeTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="android:textColorSecondary">#FFFFFF</item>
+    </style>
+
+    <style name="abeezee">
+        <item name="android:fontFamily">@font/abeezee</item>
+    </style>
+
+    <style name="amatic_sc">
+        <item name="android:fontFamily">@font/amatic_sc</item>
+    </style>
+
+    <style name="amita">
+        <item name="android:fontFamily">@font/amita</item>
+    </style>
+
+    <style name="annie_use_your_telescope">
+        <item name="android:fontFamily">@font/annie_use_your_telescope</item>
+    </style>
+
+    <style name="bungee_shade">
+        <item name="android:fontFamily">@font/bad_script</item>
+    </style>
+
+    <style name="butterfly_kids">
+        <item name="android:fontFamily">@font/butterfly_kids</item>
+    </style>
+
+    <style name="caesar_dressing">
+        <item name="android:fontFamily">@font/caesar_dressing</item>
+    </style>
+
+    <style name="press_start_2p">
+        <item name="android:fontFamily">@font/alegreya_sc_italic</item>
+    </style>
+
+    <style name="myDialog0" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/annie_use_your_telescope</item>
+    </style>
+
+    <style name="myDialog1" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/abeezee</item>
+    </style>
+
+    <style name="myDialog2" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/amatic_sc</item>
+    </style>
+
+    <style name="myDialog3" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/amita</item>
+    </style>
+
+    <style name="myDialog4" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/bad_script</item>
+    </style>
+
+    <style name="myDialog5" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/butterfly_kids</item>
+    </style>
+
+    <style name="myDialog6" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/caesar_dressing</item>
+    </style>
+
+    <style name="myDialog7" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog</item>
+        <item name="android:textColor">@color/red_for_pink</item>
+        <item name="android:fontFamily">@font/alegreya_sc_italic</item>
+    </style>
+
+    <style name="myDialog02" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/annie_use_your_telescope</item>
+    </style>
+
+    <style name="myDialog12" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/abeezee</item>
+    </style>
+
+    <style name="myDialog22" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/amatic_sc</item>
+    </style>
+
+    <style name="myDialog32" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/amita</item>
+    </style>
+
+    <style name="myDialog42" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/bad_script</item>
+    </style>
+
+    <style name="myDialog52" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/butterfly_kids</item>
+    </style>
+
+    <style name="myDialog62" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/caesar_dressing</item>
+    </style>
+
+    <style name="myDialog72" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/my_dialog_ii</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="android:fontFamily">@font/alegreya_sc_italic</item>
+    </style>
+
+</resources>

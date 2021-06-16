@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings" />
+    <item
+        android:id="@+id/perm"
+        android:icon="@drawable/ic_announcement_black_24dp"
+        android:title="Permissions Needed!" />
+    <item
+        android:id="@+id/sound"
+        android:icon="@drawable/ic_surround_sound_black_24dp"
+        android:title="Reminder Sound" />
+    <item
+        android:id="@+id/helping"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        android:title="App Instructions" />
+    <item
+        android:id="@+id/translating"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="Translator Info" />
+    <item
+        android:id="@+id/shareApp"
+        android:icon="@drawable/ic_share_yellowish_24dp"
+        android:title="Share App" />
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="Rate the App" />
+    <item
+        android:id="@+id/bug"
+        android:icon="@drawable/ic_bug_report_black_24dp"
+        android:title="Found a Bug!" />
+
+</menu>

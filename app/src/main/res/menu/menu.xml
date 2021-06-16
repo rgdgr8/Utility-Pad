@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        android:title="Copy" />
+    <item
+        android:id="@+id/del"
+        android:title="Delete" />
+    <item
+        android:id="@+id/remi"
+        android:title="Set Reminder" />
+    <item
+        android:id="@+id/trans"
+        android:title="Translate" />
+    <item
+        android:id="@+id/search"
+        android:title="Search on Web" />
+    <item
+        android:id="@+id/call"
+        android:title="Dial Number" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/fav"
+        android:title="Add to Favourites" />
+
+</menu>

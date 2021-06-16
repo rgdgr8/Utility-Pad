@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Utility Pad</string>
+    <string name="helptalk">Copy any TEXT, URL Or EMOJI within your device and it will show up in Utility Pad MAIN! (THIS IS ONLY APPLICABLE FOR DEVICES USING ANDROID 9 OR BELOW)</string>
+    <string name="tip_2">1. **LONG PRESS AND DRAG** the floating button on the bottom of the screen to change its position</string>
+    <string name="tip_3">2. Long Press on added items to use Multi-Select</string>
+    <string name="tip_4">3. You can also add another floating action button for adding Reminders , by going into Settings</string>
+    <string name="tip_5">4. Long press on the numbers/Actions buttons/backgrounds of the items and drag to change their position in the list</string>
+    <string name="tip_6">5. You can play around with a number of Fonts, text Sizes and Themes by going into Settings</string>
+
+
+    <string name="tip_ii2">1. Translation models need to be downloaded for each different language, if you are translating from or to a particular language for the FIRST TIME</string>
+    <string name="tip_ii3">2. Translation models have near about 30MB of size, so while translating from or to a particular language for the FIRST TIME, please use *Wifi* </string>
+    <string name="tip_ii4">3. Once a translation model has been downloaded, it does not need to be downloaded again and you can translate offline as well, thereafter</string>
+
+    <string name="translator">If you are using or translating to a particular language for the FIRST TIME then please be connected to a *Wifi*   It may take a few moments to download the particular Translation Model the FIRST TIME</string>
+    <string name="translatorFail">Model couldn’t be downloaded. Please check your network connection</string>
+
+    <string name="appID">ca-app-pub-7295932985152689~4812136223</string>
+    <string name="adID_banner">ca-app-pub-7295932985152689/4926690448</string>
+    <string name="adID_inter">ca-app-pub-7295932985152689/6348043744</string>
+
+    <string name="adID_TestBanner">ca-app-pub-3940256099942544~6300978111</string>
+    <string name="adID_TestInter">ca-app-pub-3940256099942544~1033173712</string>
+
+    <string name="adID_TestBanner_xml">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="adID_TestInter_xml">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="addMenuOption">Show or Hide Floating Action Button for adding Reminders</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="translateTo">Loading Translation Model, Please wait....  If this is your FIRST TIME translating to or from this particular language then please make sure that you are connected to the internet.</string>
+
+    <string name="alert">Your Device does not have auto start option for the app for when your device is switched off/restarted, so please REMEMBER TO RESTART THE APP IMMEDIATELY, IF YOUR DEVICE IS REBOOTED/RESTARTED, OTHERWISE THE REMINDERS WILL NOT BE RESTARTED.</string>
+    <string name="android">Your device is using an Android Version above 9. The app may not be able to save clipboard history of your device.</string>
+
+    <string name="app_desc">Saving clipboard history, setting Reminders, Translating, Searching, Dialling and Sharing texts directly! And also notification and app shortcuts to help you work more efficiently</string>
+
+    <string name="default_font_pref">1</string>
+
+    <string-array name="myFonts">
+        <item>Annie use your telescope</item>
+        <item>Abeezee</item>
+        <item>Amatic</item>
+        <item>Amita</item>
+        <item>Bad Script</item>
+        <item>Butterfly Kids</item>
+        <item>Caesar Dressing</item>
+        <item>Alegreya</item>
+    </string-array>
+
+    <string-array name="myFontKeys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="defaultSize">x</string>
+
+    <string-array name="size">
+        <item>Extra Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="sizeKeys">
+        <item>x</item>
+        <item>s</item>
+        <item>m</item>
+        <item>l</item>
+    </string-array>
+
+    <string name="default_mode">o</string>
+
+    <string-array name="mode">
+        <item>Bernadette</item>
+        <item>Sheldon</item>
+    </string-array>
+
+    <string-array name="modeKeys">
+        <item>f</item>
+        <item>o</item>
+    </string-array>
+
+    <string name="default_click">e</string>
+
+    <string-array name="clicked">
+        <item>Copy on Click</item>
+        <item>Edit on Click</item>
+    </string-array>
+
+    <string-array name="clickedKeys">
+        <item>c</item>
+        <item>e</item>
+    </string-array>
+
+    <string name="defaultRing">0</string>
+
+    <string-array name="ring">
+        <item>Sound of Silence</item>
+        <item>Spoken "Reminder"</item>
+        <item>Vibrate Effect</item>
+        <item>Default Ringtone Sound</item>
+        <item>Default Notification Sound</item>
+    </string-array>
+
+    <string-array name="ringKeys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

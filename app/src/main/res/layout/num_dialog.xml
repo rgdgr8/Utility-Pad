@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="400dp"
+    android:background="@drawable/beat"
+    android:id="@+id/numDiaLayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent">
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPickerDia2"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center" />
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPickerDia1"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numDone"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/my_buttons_ii"
+        android:text="OK"
+        android:fontFamily="@font/alegreya_sc_italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numCan"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_buttons_ii"
+        android:text="Cancel"
+        android:fontFamily="@font/alegreya_sc_italic"/>
+
+</LinearLayout>

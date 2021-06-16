@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "437657908958",
+    "firebase_url": "https://copy-pad.firebaseio.com",
+    "project_id": "copy-pad",
+    "storage_bucket": "copy-pad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437657908958:android:71f46e0f4da18508b4744f",
+        "android_client_info": {
+          "package_name": "com.rgdgr8.notepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437657908958-n05p6lff5lr8b6ie2pm9t8id3auuhs8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJiBwtzYpTos01KoFdn2wlm_TxjbufzA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437657908958-n05p6lff5lr8b6ie2pm9t8id3auuhs8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

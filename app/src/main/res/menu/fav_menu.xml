@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/editFav"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="Copy" />
+    <item
+        android:id="@+id/favRem"
+        android:title="Remove from Favourites" />
+
+    <item
+        android:id="@+id/remiFav"
+        android:title="Set Reminder" />
+
+    <item
+        android:id="@+id/transFav"
+        android:title="Translate" />
+    <item
+        android:id="@+id/searchFav"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search on Web" />
+    <item
+        android:id="@+id/callFav"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Dial Number" />
+    <item
+        android:id="@+id/shareFav"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share" />
+
+</menu>

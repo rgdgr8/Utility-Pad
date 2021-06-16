@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".NewTaskActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/yellowish_white"
+        android:fontFamily="@font/abeezee"
+        android:textStyle="italic"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellowish_white"
+        android:text="Tuesday, 24 May, 2019"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellowish_white"
+        android:text="1:30 pm"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellowish_white"
+        android:textAllCaps="true"
+        android:text="Repeat every 1 minute"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/doneNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/delay_buttons"
+        android:text="Done"
+        android:gravity="center"
+        android:textColor="@color/yellowish_white"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>
