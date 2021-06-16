@@ -1,5 +1,7 @@
 Utility Pad (Reminder and Clipboard Translator)
+
 Google Play Store Link: https://play.google.com/store/apps/details?id=com.rgdgr8.notepad
+
 
 Copy any Text, Number, Url (Link) or Emoji within your device and it will show up in the app
 
