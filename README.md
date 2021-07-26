@@ -13,27 +13,29 @@ Implementation:
 4. Stores data in local storage using SQLite
 
 
-Copy any Text, Number, Url (Link) or Emoji within your device and it will show up in the app
+Functionalities:
 
-Set Reminders from the added items or type new Reminders
+1. Copy any Text, Number, Url (Link) or Emoji within your device and it will show up in the app
 
-Translate text between several different languages 
+2. Set Reminders from the added items or type new Reminders
 
-A number of shortcuts for added texts:
+3. Translate text between several different languages 
 
-Search with added text item directly from the app
+4. A number of shortcuts for added texts:
 
-Dial with added number item directly from the app
+  • Search with added text item directly from the app
 
-Share any added item item directly from the app
+  • Dial with added number item directly from the app
 
-Eye catching designs on each different page
+  • Share any added item item directly from the app
 
-Two amazing different themes to choose from!
+5. Eye catching designs on each different page
 
-You can multi-select texts in the app and Share them, the texts will be arranged one after another as a single text
+6. Two amazing different themes to choose from!
 
-You can multi-select texts in the app and if you Translate them, the texts will be arranged one after another as a single text
+7. You can multi-select texts in the app and Share them, the texts will be arranged one after another as a single text
+
+8. You can multi-select texts in the app and if you Translate them, the texts will be arranged one after another as a single text
 .
 **THIS HELPS OUT A LOT WHEN NEED TO PUT TOGETHER TEXTS FROM NUMBER OF DIFFERENT PLACES!**
 
