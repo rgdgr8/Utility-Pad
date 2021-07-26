@@ -2,6 +2,16 @@ Utility Pad (Reminder and Clipboard Translator)
 
 Google Play Store Link: https://play.google.com/store/apps/details?id=com.rgdgr8.notepad
 
+Implementation:
+
+1. Lists device clipboard history using ClipboardManager
+
+2. Sets reminders from Services and Broadcast Receivers using AlarmManager
+
+3. Translates text into various language using Firebase API
+
+4. Stores data in local storage using SQLite
+
 
 Copy any Text, Number, Url (Link) or Emoji within your device and it will show up in the app
 
@@ -42,14 +52,6 @@ Important notes:
 If you have any battery saving apps installed or the Doze mode enabled(Android 6.0+) on your device, please make sure to whitelist this Reminder app to ensure the correct work of it.(Is required only on certain devices).
 
 On devices with Android version 10 and above, the clipboard history may not be saved
-
-Lists device clipboard history using ClipboardManager
-
-Sets reminders from Services and Broadcast Receivers using AlarmManager
-
-Translates text into various language using Firebase API
-
-Stores data in local storage using SQLite
 
 
 Extra Permissions Required:
