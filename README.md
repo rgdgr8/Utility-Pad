@@ -43,6 +43,14 @@ If you have any battery saving apps installed or the Doze mode enabled(Android 6
 
 On devices with Android version 10 and above, the clipboard history may not be saved
 
+Lists device clipboard history using ClipboardManager
+
+Sets reminders from Services and Broadcast Receivers using AlarmManager
+
+Translates text into various language using Firebase API
+
+Stores data in local storage using SQLite
+
 
 Extra Permissions Required:
 
